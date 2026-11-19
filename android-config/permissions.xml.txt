@@ -1,0 +1,13 @@
+Android permissions added by the GitHub Actions workflow:
+- READ_MEDIA_AUDIO / READ_MEDIA_IMAGES / READ_MEDIA_VIDEO (Android 13+)
+- READ_EXTERNAL_STORAGE (Android 12 and below)
+- POST_NOTIFICATIONS
+- FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK / WAKE_LOCK
+- RECORD_AUDIO / MODIFY_AUDIO_SETTINGS
+- INTERNET / ACCESS_NETWORK_STATE
+- BLUETOOTH_CONNECT
+
+Android only displays runtime permission prompts when the app actually requests them.
+Microphone permission is declared for future voice features; it is not needed for ordinary music/video playback.
+
+Native LocalMusic Capacitor plugin queries Android MediaStore audio and video collections and publishes media metadata/playback actions through Android's MediaSession notification.

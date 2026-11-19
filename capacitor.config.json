@@ -1,0 +1,9 @@
+{
+  "appId": "com.primeone.musicplayer",
+  "appName": "Prime One",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {"launchAutoHide": true, "backgroundColor": "#090d16", "showSpinner": false}
+  }
+}
